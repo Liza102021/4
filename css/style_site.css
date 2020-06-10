@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*		{margin:0;	padding:0;}
+.wrapper { width: 900px;  margin: 0 auto; text-align: center;}
+.wrapper img {width: 200px;}
+.d {font-size: 16px; font-family: 'Indie Flower', cursive;}
+.d:hover img  {
+	border: 3px solid #f26522;}
+
+.position { font-family: 'Times New Roman', Times, serif;}
+
+@media (min-width: 960px) 
+{ .wrapper {
+	background: lightblue;
+	width: 960px;
+		   }
+  .d {
+	  width: 300px;
+	  display: inline-block;
+	  
+     }
+}
+
+@media (min-width: 480px)
+{ .wrapper {
+	background: lightblue;
+	width: 480px;
+		   }
+  .d {
+	  width: 300px;
+	  display: inline-block;
+	 }
+}
+
+@media (min-width: 1200px)
+{ .wrapper {
+	background: lightblue;
+	width: 1200px;
+		   }
+  .d {
+	  width: 300px;
+	  display: inline-block;
+     }
+}
+
+
+
+
+.wrapper{
+	width:900px;
+	margin: 0 auto;
+}
